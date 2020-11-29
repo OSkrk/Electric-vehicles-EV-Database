@@ -43,5 +43,14 @@ fig = go.Figure(data=[go.Scatter(
     mode='markers',
     marker_size=z)
 ])
-
+fig.update_layout(
+    title='Europe trends in EV Charging technology ',
+    xaxis=dict(
+        title='year',
+        gridcolor='white',
+    ),
+    yaxis=dict(
+        title='Charging type and power',
+        gridcolor='white',
+    ))
 fig.show()
