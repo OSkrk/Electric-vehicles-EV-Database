@@ -1,13 +1,47 @@
+import numpy as np
+import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+import csv
+with open('EVs_data_base.csv', 'r', newline='') as f:
+    rows = list(csv.reader(f, delimiter=';'))
+    for row in rows[1:]:
+        row[5]= int(row[5])
+    
+years=[]
+chargingType=[]
+for row in rows[1:]:
+    if row[5]!='':years.append(row[5])
+    if row[2]!='None': chargingType.append(row[2])
+    if row[6]!='None': chargingType.append(row[6])
+chargingType=list(dict.fromkeys(chargingType))
+chargingType.sort()
+years=list(dict.fromkeys(years))
+years.sort()
+print (chargingType)
+x=[]
+y=[]
+z=[]
+for entry in years:
+    for elements in chargingType:
+        x.append(entry)
+        y.append(elements)
+        z.append(1)
+index=0
+for year in years:
+    for chtype in chargingType:
+        for row in rows:
+            if row[5]==year and row [2]==chtype:
+                z[index]=z[index]+20
+            if row[5]==year and row [6]==chtype:
+                z[index]=z[index]+20
+        index=index+1
 
+print(len(x),len(y))
+#z=# Count of cars
 fig = go.Figure(data=[go.Scatter(
-    x=[1, 2, 3, 4], y=[10, 11, 12, 13],
-    text=['A<br>size: 40', 'B<br>size: 60', 'C<br>size: 80', 'D<br>size: 100'],
+    x=x, y=y,
     mode='markers',
-    marker=dict(
-        color=['rgb(93, 164, 214)', 'rgb(255, 144, 14)',  'rgb(44, 160, 101)', 'rgb(255, 65, 54)'],
-        size=[40, 60, 80, 100],
-    )
-)])
+    marker_size=z)
+])
 
 fig.show()
