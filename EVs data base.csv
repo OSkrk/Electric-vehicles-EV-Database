@@ -1,4 +1,4 @@
-Car model;Autonomy Km; DC Charging conector;DC nominal charge power KW;year;AC Charging connector;AC nominal charging;Car type;Approx Release price K$;Battery Capacity kWh;Source
+Car model;Autonomy Km; DC Charging connector;DC nominal charge power KW;year;AC Charging connector;AC nominal charging;Car type;Approx Release price order in K$;Battery Capacity kWh;Source
 Mitsubishi i-MiEV;110;CHAdeMO;50;2010;None;N/A;hatchback;40;;
 Nissan Leaf 1.0;120;CHAdeMO;50;2011;None;N/A;hatchback;30;;
 Peugeot iOn;110;CHAdeMO;50;2010;None;N/A;hatchback;30;;
@@ -20,11 +20,11 @@ Mercedes B250;140;None;N/A;2016;Type 2;11;;;;
 Tesla model S;450;None;N/A;2016;Type 2;11;;;;
 Merceds Vito E-cell;130;None;N/A;2016;Type 2;7.5;Van;;36 kwh;
 Smart ED Gen1;;None;N/A;2016;Type 2;7.5;Micro;;;
-Renault Fluence ZE;;None;N/A;2016;Type 2;7.5;Sedan;;;
-Renault Twizy;;None;N/A;2016;Type 2;7.5;Micro;;;
-Ford focus Electric;;None;N/A;2016;Type 2;7.5;hatchback;;;
+Renault Fluence ZE;130;None;N/A;2016;Type 2;22;Sedan;;;
+Renault Twizy;90;None;N/A;2016;Type 2;7.5;Micro;;;
+Ford focus Electric;207;None;N/A;2016;Type 2;7.5;hatchback;;;
 Honda Fit;;None;N/A;2016;Type 2;7.5;Sedan;;;
-Renault Kangoo ZE;;None;N/A;2016;Type 2;7.5;Van;;;
+Renault Kangoo ZE;220;None;N/A;2016;Type 2;7.5;Van;;;
 Mahindra e20;110;None;N/A;2016;Type 2;7.5;hatchback;;;
 Citroen E-Mehari;200;None;N/A;2016;Type 2;7.5;hatchback;;;
 VW e-UP!;110;Fast Charging Combo CCS up to 50 KW;50;2016;None;N/A;hatchback;;;
@@ -35,3 +35,27 @@ Opel Ampera-e;190;Fast Charging Combo CCS up to 50 KW;50;2017;None;N/A;hatchback
 BMW i3 2.0;140;Fast Charging Combo CCS up to 50 KW;50;2017;None;N/A;hatchback;;;
 Porsche Mission E ;500;HPC CCS up to 350 KW;350;2019;Type 2;7.5;Sedan;;;
 Audi Q6;500;High Charging Combo CCS up to 150 KW;150;2018;None;N/A;SUV;;;
+Faraday Future 91;650;High Charging Combo CCS up to 150 KW;150;2018;None;N/A;SUV;;;
+Lucid Air;650;High Charging Combo CCS up to 150 KW;150;2018;None;N/A;Sedan;;;
+VW Budd-e;500;High Charging Combo CCS up to 150 KW;150;2019;None;N/A;Van;;;
+VW ID Crozz2;500;High Charging Combo CCS up to 150 KW;150;2019;None;N/A;SUV;;;
+Jaguar i-Pace;450;High Charging Combo CCS up to 150 KW;150;2017;None;N/A;Sedan;;;
+VW e-golf 1.1;300;High Charging Combo CCS up to 150 KW;150;2017;None;N/A;Sedan;;;
+Tesla model 3;350;High Charging Combo CCS up to 150 KW;150;2017;None;N/A;Sedan;;;
+Ford Focus Electric;165;High Charging Combo CCS up to 150 KW;150;2018;None;N/A;Sedan;;;
+Kia Niro;455;High Charging Combo CCS up to 150 KW;150;2018;None;N/A;Sedan;;;
+VW ID.4;500;High Charging Combo CCS up to 150 KW;150;2020;Type 2;11;SUV;;77;
+Aston Martin RapidE;320;High Charging Combo CCS up to 150 KW;150;2018;None;;;;;
+Hyundai Esuv;320;High Charging Combo CCS up to 150 KW;150;2018;None;;;;;
+Ford Model E;500;High Charging Combo CCS up to 150 KW;150;2019;None;;;;;
+Volvo XC40;500;High Charging Combo CCS up to 150 KW;150;2019;None;;SUV;50;78;
+Skoda E;500;High Charging Combo CCS up to 150 KW;150;2019;None;;;;;
+Mazda MX-30;200;Fast Charging Combo CCS up to 50 KW;50;2020;Type 2;6.6;SUV;;36;
+BMW Mini E;250;Fast Charging Combo CCS up to 50 KW;50;2019;Type 2;11;;;33;
+Daimler EQV;405;High Charging Combo CCS up to 150 KW;110;2021;Type 2;11;Van;;90;https://www.automobile-propre.com/voitures/mercedes-eqv/autonomie/
+Daimler EQC;414;High Charging Combo CCS up to 150 KW;110;2019;Type 2;11;;;;
+VW ID.3;330;High Charging Combo CCS up to 150 KW;100;2020;Type 2;7.2;hatchback ;;77;
+Peugeot e-208;340;High Charging Combo CCS up to 150 KW;100;2020;Type 2;7;;;;
+Nissan Leaf 2.0;300;CHAdeMO;100;2017;Type 2;6.6;;;;
+Infinity LE;200;CHAdeMO;100;2017;Type 2;;;;;
+Honda E;220;High Charging Combo CCS up to 150 KW;100;2020;Type 2;6.6;hatchback;35;;
