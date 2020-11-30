@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import csv
 with open('EVs_data_base.csv', 'r', newline='') as f:
-    rows = list(csv.reader(f, delimiter=';'))
+    rows = list(csv.reader(f, delimiter=','))
     for row in rows[1:]:
         row[5]= int(row[5])
     
