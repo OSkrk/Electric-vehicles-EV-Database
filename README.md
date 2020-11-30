@@ -1,6 +1,6 @@
 # Electric-vehicles-Database
 
-This project is intended to track electric vehicles trends in europe (from Micro to Vans). The information is stored in csv files. No rights can be derived from the information on this site. The information is based on website sources and should not be considered as official. 
+This project is intended to track electric vehicles (already in the market and announced) trends in europe (from Micro to Vans). The information is stored in csv files. No rights can be derived from the information on this site. The information is based on website sources and should not be considered as official. 
 
 Anyone is welcome to colaborate:
 * correct/complete existing information [*please provide website source*]
