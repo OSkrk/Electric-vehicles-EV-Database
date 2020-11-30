@@ -5,7 +5,7 @@ This project is intended to track electric vehicles trends. The information is s
 Anyone is welcome to colaborate:
 * correct/complete existing information [*please provide website source*]
 * adding new models [*please provide website source*]
-* add new columns 
+* add new columns [*Please keep the soruce column as the last one and do not change existing columns order*]
 * adding ploting scripts.
 
 # Available plots:
