@@ -1,5 +1,5 @@
 Car_model,Autonomy_WLTP_Km,DC_Charging_connector,DC_charging_protocol,DC_nominal_charge_power_KW,year,AC_Charging_connector,AC_nominal_charging,AC_Charging_Protocol,Car_type,Approx_Release_price_order_in_kDollar,Battery_Capacity_kWh,Source,
-Aston_Martin_RapidE,320,F_High_Charging_Combo_CCS_up_to_150_KW,DC_ISO_IEC_15118_2,150,2019,None,NA,NA,empty,empty,65,
+Aston_Martin_RapidE,320,F_High_Charging_Combo_CCS_up_to_150_KW,DC_ISO_IEC_15118_2,150,2019,None,NA,NA,empty,empty,65,,
 Audi_E_tron_s,362,F_High_Charging_Combo_CCS_up_to_150_KW,DC_ISO_IEC_15118_2,150,2020,B_Type_2_Tri_11KW,11,IEC_61851_1,SUV,70,86,
 Audi_Q6,500,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2018,None,NA,NA,SUV,empty,empty,
 BMW_i3,130,G_Fast_Charging_Combo_CCS_up_to_50_KW,DIN_70121,50,2016,B_Type_2_Tri_11KW,11,IEC_61851_1,hatchback,empty,empty,
