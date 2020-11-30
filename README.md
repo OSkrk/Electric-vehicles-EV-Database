@@ -2,7 +2,10 @@
 
 This project is intended to track electric vehicles trends. The information is stored in csv files. No rights can be derived from the information on this site. 
 
-Anyone is welcome to colaborate, editing csv file and adding ploting scripts.
+Anyone is welcome to colaborate:
+* correct/complete existing information
+* adding new models and columns with 
+* adding ploting scripts.
 
 # Available plots:
 
