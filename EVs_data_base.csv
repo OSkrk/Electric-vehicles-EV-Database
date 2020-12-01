@@ -53,7 +53,7 @@ Renault_Megane_eVision,450,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,130,
 Renault_Twingo_ZE,190,None,NA,NA,2020,C_Type_2_Tri_22W,22,IEC_61851_1,Hatchback,20,21,
 Skoda_E,500,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2019,B_Type_2_Tri_11KW,11,61851_1,SUV,40,83,
 Smart_ED_Gen1,empty,None,NA,NA,2016,A_Type_2_Mono_7KW,7.5,IEC_61851_1,Micro,empty,empty,
-Smart_ForTwo,135,None,NA,NA,2018,C_Type_2_Tri_22W,22,AC_ISO_IEC_15118,micro,30,18,https:www.automobile_propre.comvoituressmart_electriqueautonomie
+Smart_ForTwo,135,None,NA,NA,2018,C_Type_2_Tri_22W,22,AC_ISO_IEC_15118-2,micro,30,18,https:www.automobile_propre.comvoituressmart_electriqueautonomie
 Tesla_model_S,450,None,NA,NA,2016,B_Type_2_Tri_11KW,11,IEC_61851_1,empty,empty,empty,
 Tesla_model_3,350,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2017,B_Type_2_Tri_11KW,11,61851_1,Sedan,empty,empty,
 Tesla_model_X,450,E_CHAdeMO_100KW,E_CHAdeMO_100KW,50,2015,C_Type_2_Tri_22W,16.5,61851_1,SUV,100,90,
