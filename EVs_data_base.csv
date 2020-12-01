@@ -62,7 +62,8 @@ Volvo_XC40,500,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2019,A_Type_
 VW_ID_Buzz,500,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2022,None,NA,NA,Van,empty,110,
 VW_e_Golf,130,G_Fast_Charging_Combo_CCS_up_to_50_KW,DIN_70121,50,2016,A_Type_2_Mono_7KW,7,61851_1,hatchback,empty,empty,
 VW_e_golf_1.1,230,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2017,A_Type_2_Mono_7KW,7,61851_1,Sedan,39,32,
-VW_e_UP!,110,G_Fast_Charging_Combo_CCS_up_to_50_KW,DIN_70121,40,2016,A_Type_2_Mono_7KW,7,61851_1,hatchback,37,23,
+VW_e_UP!,110,G_Fast_Charging_Combo_CCS_up_to_50_KW,DIN_70121,40,2013,A_Type_2_Mono_7KW,3.7,61851_1,hatchback,18,empty,
+VW_e_UP!,260,G_Fast_Charging_Combo_CCS_up_to_50_KW,DIN_70121,40,2019,A_Type_2_Mono_7KW,7,61851_1,hatchback,32,23,https://www.automobile-propre.com/voitures/volkswagen-e-up/
 VW_ID.3,330,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,100,2020,A_Type_2_Mono_7KW,7.2,IEC_61851_1,hatchback_,empty,77,
 VW_ID.4,500,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2020,B_Type_2_Tri_11KW,11,IEC_61851_1,SUV,empty,77,
 VW_ID_Crozz2,500,F_High_Charging_Combo_CCS_up_to_150_KW,DIN_70121,150,2019,None,NA,NA,SUV,83,empty,
