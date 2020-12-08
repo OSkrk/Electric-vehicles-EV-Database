@@ -2,8 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import csv
+import os
 # import CSV file
-with open('EVs_data_base.csv', 'r', newline='') as f:
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+rel_path = 'Data/EVs_data_base.csv'
+abs_file_path = os.path.join(script_dir, rel_path)
+with open(abs_file_path, 'r', newline='') as f:
     rows = list(csv.reader(f, delimiter=','))
     for row in rows[1:]:
         row[5]= int(row[5])# transform column from string to int values
