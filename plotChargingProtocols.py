@@ -19,6 +19,7 @@ chargingType=list(dict.fromkeys(chargingType)) # remove repeated items
 chargingType.sort()
 years=list(dict.fromkeys(years)) # remove repeated items
 years.sort()
+#print (chargingType)
 ## Gathering data for plotting
 x=[]
 y=[]
@@ -44,10 +45,13 @@ for row in rows: # For all rows
 fig = go.Figure(data=[go.Scatter(
     x=x, y=y,
     mode='markers',
+    marker=dict(
+        color='rgb(65,127,216)'
+    ),
     marker_size=z)
 ])
 fig.update_layout(
-    title='Europe trends in EV Charging technology ',
+    title='Europe trends in EV Charging technology ',title_font_size=40,
     xaxis=dict(
         title='year',
         gridcolor='white',
@@ -55,5 +59,8 @@ fig.update_layout(
     yaxis=dict(
         title='Charging type and power',
         gridcolor='white',
+    ),
+    font=dict(
+        size=18
     ))
 fig.show()
