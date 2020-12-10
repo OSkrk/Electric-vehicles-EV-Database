@@ -2,12 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import csv
-import os
 # import CSV file
-script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
-rel_path = 'Data/EVs_data_base.csv'
-abs_file_path = os.path.join(script_dir, rel_path)
-with open(abs_file_path, 'r', newline='') as f:
+with open('EVs_data_base.csv', 'r', newline='') as f:
     rows = list(csv.reader(f, delimiter=','))
     for row in rows[1:]:
         row[5]= int(row[5])# transform column from string to int values
@@ -28,6 +24,7 @@ years.sort()
 x=[]
 y=[]
 z=[]
+col=[]
 d={}
 i=0
 for entry in years:
@@ -35,6 +32,7 @@ for entry in years:
         x.append(entry)
         y.append(elements)
         z.append(0)
+        col.append('white')
         d[repr([entry,elements])]=i
         i=i+1
 entry=0
@@ -42,17 +40,22 @@ for row in rows: # For all rows
     entry=d.get(repr([row[5],row[2]])) # DC supported protocol and year
     if entry is not None:
         z[entry]=z[entry]+20
+        if row[2]==chargingType[6]:
+            col[entry]='blue'
+        else:
+            col[entry]='darkblue'
     entry=d.get(repr([row[5],row[6]])) # AC supported protocol and year
     if entry is not None:
         z[entry]=z[entry]+20
-
+        col[entry]='indigo'
+#print (col)
 fig = go.Figure(data=[go.Scatter(
     x=x, y=y,
     mode='markers',
     marker=dict(
-        color='rgb(65,127,216)'
-    ),
-    marker_size=z)
+        color=col,
+        size=z)
+    )
 ])
 fig.update_layout(
     title='Europe trends in EV Charging technology ',title_font_size=40,
