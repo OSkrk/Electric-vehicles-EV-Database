@@ -62,4 +62,7 @@ Volvo XC40,500,G High Charging Combo CCS up to 150 KW,DIN 70121,150,2019,A Type 
 VW ID Buzz,500,G High Charging Combo CCS up to 150 KW,DIN 70121,150,2022,None,NA,NA,Van,empty,110,
 VW e Golf,130,E Fast Charging Combo CCS up to 50 KW,DIN 70121,50,2016,A Type 2 Mono up to 7KW,7,IEC 61851-1,hatchback,empty,empty,
 VW e golf 1.1,230,G High Charging Combo CCS up to 150 KW,DIN 70121,150,2017,A Type 2 Mono up to 7KW,7,IEC 61851-1,Sedan,39,32,
-VW e UP!,110,E Fast Charging Combo
+VW e UP!,110,E Fast Charging Combo CCS up to 50 KW,DIN 70121,40,2016,A Type 2 Mono up to 7KW,7,IEC 61851-1,hatchback,37,23,
+VW ID.3,330,G High Charging Combo CCS up to 150 KW,DIN 70121,100,2020,A Type 2 Mono up to 7KW,7.2,IEC 61851-1,hatchback_,empty,77,
+VW ID.4,500,G High Charging Combo CCS up to 150 KW,DIN 70121,150,2020,B Type 2 Tri up to 11KW,11,IEC 61851-1,SUV,empty,77,
+VW ID Crozz2,500,G High Charging Combo CCS up to 150 KW,DIN 70121,150,2019,None,NA,NA,SUV,83,empty,
