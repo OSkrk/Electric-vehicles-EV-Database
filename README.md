@@ -11,5 +11,5 @@ Anyone is welcome to colaborate:
 # Available plots:
 
 1. Charging protocol and power trends: Download repository, in the command line go to the folder /Electric-vehicles-EV-Database and execute the following command: `python3 plotChargingProtocols.py`
-[Europe Trends in EV Charging Technology](https://htmlpreview.github.io/?https://github.com/OSkrk/Electric-vehicles-EV-Database/blob/main/Plots/EU%20Trends%20in%20EV%20Charging%20Technology.html)
+{%include https://github.com/OSkrk/Electric-vehicles-EV-Database/blob/main/Plots/EU%20Trends%20in%20EV%20Charging%20Technology2.html%}
   
